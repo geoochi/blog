@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: Geogi Chi
-  tagline: An indie hacker, open sourceror, cycling enthusiast
+  tagline: indie hacker, open sourceror, cycling enthusiast
 
 features:
   - icon: 💻

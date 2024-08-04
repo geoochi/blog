@@ -1,7 +1,8 @@
 ---
-lastUpdate: False
+lastUpdated: False
 ---
-# 20190421 环深骑行 (存档)
+
+# 20190421 环深骑行
 
 <br>
 
@@ -9,17 +10,9 @@ lastUpdate: False
 <img src="/shenzhen-track.png" alt="环深轨迹">
 </div>
 
-<br>
+![2019年的我和XTC800](/2019-me-XTC800.png)
 
-<div align="center">
-<img src="/2019-me-XTC800.png" alt="2019年的我和XTC800">
-</div>
-
-<br>
-
-<div align="center">
-<img src="/biketo-plaque.png" alt="美骑纪念牌">
-</div>
+![美骑纪念牌](/biketo-plaque.png)
 
 ## 刚回到深大的感受
 
@@ -54,3 +47,5 @@ lastUpdate: False
 还有一点，同伴真的很重要。路上，我和那位“北站XTC”共同骑行，有时他超过我，有时我超过他，有时一起去吃午饭，有时在路边的便利店买一瓶八宝粥当晚餐。各自回去后我用微信付给他8元的八宝粥钱，他又说：“不用，谢谢带路。”
 
 同伴，就像是另一个自己，在你需要帮助之时给予你一臂之力，在需要你的援助时，你也能本能的拉他一把。感谢一路有这位车友的陪伴，伴随着我骑过这本应枯燥艰难的环深旅程。
+
+(存档，写于 20190421)
