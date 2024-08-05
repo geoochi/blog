@@ -1,6 +1,6 @@
 #!/bin/sh
 
-folder_list=("docs/public")
+folder_list=("src/public")
 
 for folder in "${folder_list[@]}"; do
     for file in $folder/*.webp; do
