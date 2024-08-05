@@ -6,10 +6,11 @@ export default defineConfig({
   description: "Homepage of Geogi Chi",
   lastUpdated: true,
   markdown: { math: true },
+  cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Blog', link: '/blog/170km-shenzhen' }
+      { text: 'Blog', link: '/blog/170km-shenzhen' },
     ],
 
     sidebar: {
