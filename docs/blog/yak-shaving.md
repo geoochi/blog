@@ -10,7 +10,7 @@ Yak Shaving (薅牛毛)，是指在一开始想做一件事情，但随着分支
 
 例如托尼通过创造自己的“牦牛地图”最终让自己成为了一名 Vue 社区的开源达人：
 
-![Yak Shaving](/yak-shaving.png)
+![Yak Shaving](/yak-shaving.webp)
 
 对我来说，最初遇到 vue 社区的过程其实就是如托尼所说的一系列 Yak Shaving 步骤：
 

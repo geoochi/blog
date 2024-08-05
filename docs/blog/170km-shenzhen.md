@@ -7,12 +7,12 @@ lastUpdated: False
 <br>
 
 <div align="center">
-<img src="/shenzhen-track.png" alt="环深轨迹">
+<img src="/shenzhen-track.webp" alt="环深轨迹">
 </div>
 
-![2019年的我和XTC800](/2019-me-XTC800.png)
+![2019年的我和XTC800](/2019-me-XTC800.webp)
 
-![美骑纪念牌](/biketo-plaque.png)
+![美骑纪念牌](/biketo-plaque.webp)
 
 ## 刚回到深大的感受
 

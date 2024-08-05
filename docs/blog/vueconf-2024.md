@@ -4,7 +4,7 @@ lastUpdated: False
 
 # VueConf 2024
 
-![vueconf-2024](/vueconf-2024.png)
+![vueconf-2024](/vueconf-2024.webp)
 
 第一次参加 vueconf，很莫名其妙地就坐到了第二盘中间的位置😅，然后第一排最右边就是尤大、托尼和 vue 社区的多位大佬，我左边是一位华为负责前端的高管，正后方是微信的几位同学。。。
 
