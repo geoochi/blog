@@ -1,5 +1,4 @@
 {
-  "packageManager": "pnpm@9.6.0",
   "devDependencies": {
     "markdown-it-mathjax3": "latest",
     "vitepress": "latest"
