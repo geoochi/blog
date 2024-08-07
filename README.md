@@ -1,1 +1,1 @@
-### Hi, I'm Geogi Chi, welcom to my [homepage](https://szchixy.github.io) 👋
+### Hi, I'm Geogi Chi, welcome to my [homepage](https://szchixy.github.io) 👋
