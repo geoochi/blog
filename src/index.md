@@ -15,4 +15,8 @@ features:
     title: Bicycling
     details: 170km around Shenzhen in 1 day
     link: /blog/170km-shenzhen
+  - icon: 📝
+    title: Dlogging
+    details: use one line log to record a human's daily life during 10 years
+    link: https://szchixy.github.io/dlog
 ---
