@@ -7,16 +7,20 @@ hero:
   tagline: indie hacker, open sourceror, cycling enthusiast
 
 features:
+  - icon: 🚴‍♂️
+    title: 170km Shenzhen
+    details: A blog of 170km around Shenzhen in 1 day
+    link: /blog/170km-shenzhen
+  - icon: 🔨
+    title: Qgis Vector Tool
+    details: some qgis vector process tools created by python
+    link: https://github.com/szchixy/vector_tools
   - icon: 📷
     title: Track flying Animation
-    details: Build track fly animation by Python & Js
+    details: An track fly animation built by python & js
     link: https://szchixy.github.io/track_fly
-  - icon: 📝
-    title: Dlogging
-    details: one line log of a human's daily life
-    link: https://szchixy.github.io/dlog
-  - icon: 🚴‍♂️
-    title: Bicycling
-    details: 170km around Shenzhen in 1 day
-    link: /blog/170km-shenzhen
+  - icon: 💻
+    title: HTML CSS JS
+    details: Some simple demos of html, css and js
+    link: https://szchixy.github.io/html-css-js-practice/
 ---

@@ -30,7 +30,6 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/szchixy' },
-      { icon: 'x', link: 'https://x.com/szchixy' },
     ]
   }
 })
