@@ -29,7 +29,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/szchixy' },
+      { icon: 'github', link: 'https://github.com/geogi-chi' },
     ]
   }
 })
