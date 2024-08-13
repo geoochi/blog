@@ -7,6 +7,6 @@
     "dev": "vitepress dev src",
     "build": "vitepress build src",
     "preview": "vitepress preview src",
-    "webp2webp": "./scripts/webp2webp.sh"
+    "png2webp": "./scripts/png2webp.sh"
   }
 }
