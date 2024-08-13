@@ -14,13 +14,13 @@ features:
   - icon: 🔨
     title: Qgis Vector Tool
     details: some qgis vector process tools created by python
-    link: https://github.com/geogi-chi/vector_tools
+    link: https://github.com/geogichi/vector_tools
   - icon: 📷
     title: Track flying Animation
     details: An track fly animation built by python & js
-    link: https://geogi-chi.github.io/track_fly
+    link: https://geogichi.github.io/track_fly
   - icon: 💻
     title: HTML CSS JS
     details: Some simple demos of html, css and js
-    link: https://geogi-chi.github.io/html-css-js-practice/
+    link: https://geogichi.github.io/html-css-js-practice/
 ---
