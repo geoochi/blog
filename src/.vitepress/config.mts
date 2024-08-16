@@ -19,10 +19,12 @@ export default defineConfig({
           {
             text: 'City Log', collapsed: false, items: [
               { text: '20240803 无人机表演', link: '/clog-20240803' },
-              { text: '20240721 无人机外卖', link: '/clog-20240721' },]
+              { text: '20240721 无人机外卖', link: '/clog-20240721' },
+            ]
           },
           { text: 'Yak Shaving', link: '/yak-shaving' },
           { text: 'VueConf 2024', link: '/vueconf-2024' },
+          { text: 'Track Fly', link: '/track-fly' },
           { text: '170 km autour de Shenzhen', link: '/170km-shenzhen' },
         ]
       }
