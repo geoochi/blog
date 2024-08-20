@@ -18,7 +18,7 @@ features:
   - icon: 📷
     title: Track flying Animation
     details: An track fly animation built by python & js
-    link: /blog/track-fly
+    link: https://geogichi.github.io/track_fly
   - icon: 💻
     title: HTML CSS JS
     details: Some simple demos of html, css and js
