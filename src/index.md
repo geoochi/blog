@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: Geogi Chi
+  name: Geoo Chi
   tagline: indie hacker, open sourceror, cycling enthusiast
 
 features:
@@ -14,13 +14,13 @@ features:
   - icon: 🔨
     title: Qgis Vector Tool
     details: some qgis vector process tools created by python
-    link: https://github.com/geogichi/vector_tools
+    link: https://github.com/geoochi/vector_tools
   - icon: 📷
     title: Track flying Animation
     details: An track fly animation built by python & js
-    link: https://geogichi.github.io/track_fly
+    link: https://geoochi.github.io/track_fly
   - icon: 💻
     title: HTML CSS JS
     details: Some simple demos of html, css and js
-    link: https://geogichi.github.io/html-css-js-practice/
+    link: https://geoochi.github.io/html-css-js-practice/
 ---

@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Home",
-  description: "Homepage of Geogi Chi",
+  description: "Homepage of Geoo Chi",
   lastUpdated: true,
   markdown: { math: true },
   cleanUrls: true,
@@ -29,7 +29,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/geogichi' },
+      { icon: 'github', link: 'https://github.com/geoochi' },
     ]
   }
 })
