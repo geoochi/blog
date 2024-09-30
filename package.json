@@ -1,12 +1,12 @@
 {
   "devDependencies": {
     "markdown-it-mathjax3": "^4.3.2",
-    "vitepress": "^1.3.2"
+    "vitepress": "^1.3.4"
   },
   "scripts": {
     "dev": "vitepress dev src",
     "build": "vitepress build src",
     "preview": "vitepress preview src",
-    "png2webp": "./scripts/png2webp.sh"
+    "img2webp": "./scripts/img2webp.sh"
   }
 }
