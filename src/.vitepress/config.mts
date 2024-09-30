@@ -21,7 +21,7 @@ export default defineConfig({
           { text: '深圳湾无人机外卖', link: '/20240721-shenzhen-bay-drone-delivery' },
           { text: 'Yak Shaving', link: '/20240708-yak-shaving' },
           { text: 'VueConf 2024', link: '/20240707-vueconf-2024' },
-          { text: '170 km autour de Shenzhen', link: '/20190421-170km-shenzhen' },
+          { text: '170 km tour de Shenzhen', link: '/20190421-170km-tour-de-shenzhen' },
         ]
       }
     },
