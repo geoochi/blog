@@ -7,10 +7,6 @@ hero:
   tagline: indie hacker, open sourceror, cycling enthusiast
 
 features:
-  - icon: 🚴‍♂️
-    title: 170km Shenzhen
-    details: A blog of 170km around Shenzhen in 1 day
-    link: /blog/170km-tour-de-shenzhen
   - icon: 🔨
     title: Qgis Vector Tool
     details: some qgis vector process tools created by python
