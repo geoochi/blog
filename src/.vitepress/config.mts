@@ -10,13 +10,12 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Blog', link: '/blog/run-shenzhen-talent-park' },
+      { text: 'Blog', link: '/blog/shenzhen-bay-drone-show' },
     ],
 
     sidebar: {
       'blog': {
         base: '/blog', items: [
-          { text: '第一次跑完人才公园', link: '/run-shenzhen-talent-park' },
           { text: '深圳湾无人机表演', link: '/shenzhen-bay-drone-show' },
           { text: '深圳湾无人机外卖', link: '/shenzhen-bay-drone-delivery' },
           { text: 'Yak Shaving', link: '/yak-shaving' },
