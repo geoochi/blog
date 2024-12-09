@@ -1,13 +1,16 @@
 {
-  "packageManager": "pnpm@9.14.4",
-  "devDependencies": {
+  "type": "module",
+  "packageManager": "pnpm@9.15.0",
+  "dependencies": {
     "markdown-it-mathjax3": "^4.3.2",
     "vitepress": "^1.5.0"
   },
   "scripts": {
-    "dev": "vitepress dev src",
-    "build": "vitepress build src",
-    "preview": "vitepress preview src",
+    "d": "vitepress dev src",
+    "b": "vitepress build src",
+    "p": "vitepress preview src",
+    "p-npx": "npx serve -s dist -p 3001",
+    "p-py": "python -m http.server -b 127.0.0.1 -d dist 3001",
     "img2webp": "./scripts/img2webp.sh"
   }
 }

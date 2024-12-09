@@ -45,12 +45,12 @@ jobs:
         run: pnpm install
 
       - name: Build
-        run: pnpm build
+        run: pnpm vitepress build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: src/.vitepress/dist
+          path: dist
 
   deploy:
     environment:

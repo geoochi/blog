@@ -7,6 +7,8 @@ export default defineConfig({
   lastUpdated: false,
   markdown: { math: true },
   cleanUrls: true,
+  outDir: '../dist',
+  cacheDir: '../cache',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
