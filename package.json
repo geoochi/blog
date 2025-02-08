@@ -3,13 +3,12 @@
   "packageManager": "pnpm@9.15.2",
   "dependencies": {
     "markdown-it-mathjax3": "^4.3.2",
-    "vitepress": "^1.5.0"
+    "vitepress": "^1.6.3"
   },
   "scripts": {
-    "d": "vitepress dev src",
+    "d": "vitepress dev src --open",
     "b": "vitepress build src",
-    "p": "vitepress preview src",
-    "p-static": "npx http-server dist -a 127.0.0.1 -p 3001",
+    "p": "pnpx http-server dist -a 127.0.0.1 -p 3001",
     "img2webp": "./scripts/img2webp.sh"
   }
 }
