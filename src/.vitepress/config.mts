@@ -6,7 +6,7 @@ export default defineConfig({
   lastUpdated: false,
   markdown: { math: true },
   cleanUrls: true,
-  base: '/',
+  base: '.',
   outDir: '../dist',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
