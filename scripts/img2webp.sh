@@ -1,27 +1,27 @@
 #!/bin/zsh
 
-folder_list=("src/public")
+folder_list=("./src/public")
 extensions=("png" "jpg" "jpeg")
 
-# zsh 的空匹配处理
+# zsh's null matching
 setopt NULL_GLOB
 
 for ext in "${extensions[@]}"; do
     for folder in "${folder_list[@]}"; do
-        # 检查文件夹是否存在
+        # check if folder exists
         if [ ! -d "$folder" ]; then
-            echo "警告: 文件夹 $folder 不存在"
+            echo "Warning: Folder $folder does not exist"
             continue
         fi
 
         for file in "$folder"/*."$ext"; do
-            # 检查文件是否存在
+            # check if file exists
             if [ -f "$file" ]; then
                 if cwebp "$file" -q 60 -o "${file%.$ext}.webp" -quiet; then
                     rm "$file"
                     echo "$file -> ${file%.$ext}.webp"
                 else
-                    echo "警告: $file 转换失败"
+                    echo "Warning: $file conversion failed"
                 fi
             fi
         done

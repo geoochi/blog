@@ -1,1 +1,1 @@
-### Hi, I'm Geoo Chi, welcome to my [homepage](https://geoochi.github.io) 👋
+### Hi, I'm Geoo Chi, welcome to my [blog](https://geoochi.github.io/blog) 👋
