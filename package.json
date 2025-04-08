@@ -1,9 +1,9 @@
 {
   "type": "module",
-  "packageManager": "pnpm@10.5.0",
+  "packageManager": "pnpm@10.8.0",
   "dependencies": {
     "markdown-it-mathjax3": "^4.3.2",
-    "vitepress": "^1.6.3"
+    "vitepress": "2.0.0-alpha.4"
   },
   "scripts": {
     "d": "vitepress dev src --open",
