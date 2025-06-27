@@ -3,7 +3,6 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "GeooChi's Blog",
-  base:'/blog/',
   lastUpdated: false,
   markdown: { math: true },
   cleanUrls: true,
