@@ -1,14 +1,13 @@
 {
   "type": "module",
-  "packageManager": "pnpm@10.12.0",
+  "scripts": {
+    "d": "vitepress dev src",
+    "b": "vitepress build src",
+    "p": "bunx http-server dist -a localhost -p 5173",
+    "img2webp": "./scripts/img2webp.sh"
+  },
   "dependencies": {
     "markdown-it-mathjax3": "^4.3.2",
-    "vitepress": "2.0.0-alpha.6"
-  },
-  "scripts": {
-    "d": "vitepress dev src --open",
-    "b": "vitepress build src",
-    "p": "pnpx http-server dist -a 127.0.0.1 -p 3001",
-    "img2webp": "./scripts/img2webp.sh"
+    "vitepress": "2.0.0-alpha.7"
   }
 }
