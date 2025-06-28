@@ -6,7 +6,7 @@ export default defineConfig({
   base:'/',
   lastUpdated: false,
   markdown: { math: true },
-  cleanUrls: false,
+  cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     sidebar: [
