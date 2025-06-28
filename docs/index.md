@@ -1,1 +1,1 @@
-# Welcome to GeooChi's blog
+# GeooChi's blog
