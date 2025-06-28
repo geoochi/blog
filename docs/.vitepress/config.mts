@@ -10,7 +10,6 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     sidebar: [
-      { text: 'Home', link: '/' },
       { text: '深圳湾无人机表演', link: '/shenzhen-bay-drone-show' },
       { text: '深圳湾无人机外卖', link: '/shenzhen-bay-drone-delivery' },
       { text: 'Yak Shaving', link: '/yak-shaving' },
