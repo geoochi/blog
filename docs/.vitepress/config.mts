@@ -5,7 +5,7 @@ export default defineConfig({
   title: "GeooChi's Blog",
   base:'/blog/',
   // assetsDir: 'assets',
-  outDir: '../dist/',
+  // outDir: '../dist/',
   lastUpdated: false,
   markdown: { math: true },
   cleanUrls: true,
