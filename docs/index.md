@@ -38,7 +38,7 @@ export function formatDate(date) {
 }
 .year-watermark {
   font-size: 8em;
-  color:rgb(248, 248, 248);
+  color:rgb(127, 127, 127, 0.08);
   font-weight: 700;
   position: absolute;
   left: 0.2em;
