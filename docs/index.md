@@ -1,9 +1,10 @@
 <script setup>
 import { data } from './posts.data.js'
+data.sort((a, b)=>Number(b.url.substr(1)) - Number(a.url.substr(1)))
 </script>
 
 <p v-for="item in data">
-  <a v-if="item.url!=='/'" :href="'/blog'+item.url" class="blog-link">{{ item.url.substr(1) }}</a>
+  <a v-if="item.url!=='/'" :href="'/blog'+item.url" class="blog-link">{{ item.frontmatter.title }}</a>
 </p>
 
 <style scoped>
