@@ -38,10 +38,12 @@ export function formatDate(date) {
 }
 .year-watermark {
   font-size: 8em;
-  color:rgb(127, 127, 127, 0.08);
+  color: transparent;
+  -webkit-text-stroke-color: rgb(127, 127, 127, 0.1);
+  -webkit-text-stroke-width: 4px;
   font-weight: 700;
   position: absolute;
-  left: 0.2em;
+  left: -0.4em;
   top: -0.6em;
   z-index: 0;
   pointer-events: none;
@@ -58,14 +60,14 @@ export function formatDate(date) {
   /* width: 100%; */
   color: #888;
   margin: 2em 0;
-  padding: 0em 2em 0em 4em;
+  /* padding: 0em 2em 0em 4em; */
   border-radius: 10px;
   text-decoration: none;
   font-weight: 500;
   font-size: 1.3em;
   /* background: #fff; */
   /* box-shadow: 0 2px 8px rgba(60, 60, 60, 0.08); */
-  transition: box-shadow 0.2s;
+  /* transition: box-shadow 0.2s; */
 }
 .blog-link:hover {
   color: #444
