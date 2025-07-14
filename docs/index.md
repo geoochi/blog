@@ -33,7 +33,7 @@ export function formatDate(date) {
 
 <style scoped>
 .year-group {
-  margin-bottom: 10em;
+  margin: 6em 0em 8em;
   position: relative;
 }
 .year-watermark {
@@ -54,16 +54,22 @@ export function formatDate(date) {
   position: relative;
   z-index: 1;
 }
+
+@media (max-width: 640px) {
+  .blog-link {
+    flex-direction: column;
+  }
+}
+
 .blog-link {
   display: flex;
-  align-items: center;
   /* width: 100%; */
   color: #888;
-  margin: 2em 0;
+  margin: 1em 0;
   /* padding: 0em 2em 0em 4em; */
   border-radius: 10px;
   text-decoration: none;
-  font-weight: 500;
+  /* font-weight: 500; */
   font-size: 1.3em;
   /* background: #fff; */
   /* box-shadow: 0 2px 8px rgba(60, 60, 60, 0.08); */
@@ -76,11 +82,12 @@ export function formatDate(date) {
 }
 .post-title {
   flex: 1;
+  font-weight: 500;
   /* color: #222; */
 }
 .post-date {
   /* color: #aaa; */
-  font-size: 0.9em;
-  margin-left: 1.5em;
+  font-size: 0.7em;
+  font-weight: 300;
 }
 </style>
