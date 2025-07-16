@@ -33,7 +33,7 @@ export function formatDate(date) {
 
 <style scoped>
 .year-group {
-  margin: 6em 0em 8em;
+  margin: 4em 0em 8em;
   position: relative;
 }
 .year-watermark {
@@ -44,7 +44,7 @@ export function formatDate(date) {
   font-weight: 700;
   position: absolute;
   left: -0.4em;
-  top: -0.6em;
+  top: -0.5em;
   z-index: 0;
   pointer-events: none;
   user-select: none;
@@ -55,7 +55,7 @@ export function formatDate(date) {
   z-index: 1;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 400px) {
   .blog-link {
     flex-direction: column;
   }
@@ -64,7 +64,7 @@ export function formatDate(date) {
 .blog-link {
   display: flex;
   /* width: 100%; */
-  color: #888;
+  color: #999;
   margin: 1em 0;
   /* padding: 0em 2em 0em 4em; */
   border-radius: 10px;
@@ -76,18 +76,27 @@ export function formatDate(date) {
   /* transition: box-shadow 0.2s; */
 }
 .blog-link:hover {
-  color: #444
+  color: #000;
   /* box-shadow: 0 20px 25px rgba(145, 145, 145, 0.15); */
   /* background: #f7f7f7; */
 }
+
+/* 移除 prefers-color-scheme 媒体查询，改为 .dark 类控制 */
+.dark .blog-link {
+  color: #777;
+}
+.dark .blog-link:hover {
+  color: #fff;
+}
 .post-title {
-  flex: 1;
+  /* flex: 1; */
+  padding-right: 8px;
   font-weight: 500;
   /* color: #222; */
 }
 .post-date {
   /* color: #aaa; */
   font-size: 0.7em;
-  font-weight: 300;
+  font-weight: 400;
 }
 </style>
