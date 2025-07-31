@@ -3,11 +3,11 @@
   "scripts": {
     "d": "vitepress dev docs",
     "b": "vitepress build docs",
-    "p": "vitepress preview docs",
+    "p": "bunx http-server docs/.vitepress/dist",
     "img2webp": "./scripts/img2webp.sh"
   },
   "dependencies": {
     "markdown-it-mathjax3": "^4.3.2",
-    "vitepress": "2.0.0-alpha.7"
+    "vitepress": "2.0.0-alpha.9"
   }
 }
