@@ -4,7 +4,7 @@
   "scripts": {
     "d": "vitepress dev docs",
     "b": "vitepress build docs",
-    "p": "bunx http-server docs/.vitepress/dist",
+    "p": "pnpx http-server docs/.vitepress/dist",
     "img2webp": "./scripts/img2webp.sh"
   },
   "dependencies": {
