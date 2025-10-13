@@ -23,7 +23,7 @@ const years = Object.keys(groups).sort((a, b) => b - a)
     <div v-for="year in years" :key="year" class="year-group">
       <div class="year-watermark">{{ year }}</div>
       <div v-for="item in groups[year]" :key="item.url" class="post-row">
-        <a v-if="item.url!=='/'" :href="''+item.url" class="blog-link">
+        <a v-if="item.url!=='/'" :href="'/blog'+item.url" class="blog-link">
           <span class="post-title">{{ item.frontmatter.title }}</span>
           <span class="post-date">{{ formatDate(item.frontmatter.date) }}</span>
         </a>
