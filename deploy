@@ -4,4 +4,4 @@ localPath=$(dirname $(realpath $0))
 cd $localPath
 
 pnpm b
-rsync -az -e ssh ./docs/.vitepress/dist/ geoochi-sc:/home/ubuntu/projects/homepage/blog/
+tcb hosting deploy docs/.vitepress/dist/ space/blog/ -e singfor-live-9gizzbuc59a85fe6
