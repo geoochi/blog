@@ -1,0 +1,6 @@
+#! /bin/bash
+
+localPath=$(dirname $(realpath $0))
+cd $localPath
+
+pnpm b && rsync -az -e ssh ./docs/.vitepress/dist/ geoochi-hw:/root/projects/dist/blog/

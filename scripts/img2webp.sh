@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-folder_list=("./src/public")
+folder_list=("./docs/public")
 extensions=("png" "jpg" "jpeg")
 
 # zsh's null matching
