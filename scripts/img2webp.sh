@@ -17,7 +17,7 @@ for ext in "${extensions[@]}"; do
         for file in "$folder"/*."$ext"; do
             # check if file exists
             if [ -f "$file" ]; then
-                if cwebp "$file" -q 60 -o "${file%.$ext}.webp" -quiet; then
+                if cwebp "$file" -q 90 -o "${file%.$ext}.webp" -quiet; then
                     rm "$file"
                     echo "$file -> ${file%.$ext}.webp"
                 else
