@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "packageManager": "pnpm@10.20.0",
+  "packageManager": "pnpm@11.0.8",
   "scripts": {
     "d": "vitepress dev docs",
     "b": "vitepress build docs",
@@ -8,7 +8,7 @@
     "img2webp": "./scripts/img2webp.sh"
   },
   "dependencies": {
-    "markdown-it-mathjax3": "^4.3.2",
+    "markdown-it-mathjax3": "^5.2.0",
     "vitepress": "2.0.0-alpha.7"
   }
 }
